@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.display {
+  margin-top: 15vh;
+  height: 23rem;
+  width: 27rem;
+  border-radius: 10%;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.text-box {
+  margin-top: 30vh;
+}
+
+.hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.description {
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
+.portfolio-links > a {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: large;
+}
+.portfolio-links > a:hover {
+  color: #ff7573 !important;
+  border: 2px solid #ff7573;
+  border-radius: 10px;
+}
+.portfolio-links > a .active {
+  color: #ff7573 !important;
+  border: 2px solid #ff7573;
+  border-radius: 10px;
+}
+
+.title {
+  color: #ff7573;
+  border: 2px solid #ff7573;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.image {
+  height: 11rem;
+  width: 16rem;
+  border-radius: 25px;
+  border: 2px solid #222831;
+  margin-bottom: 10px;
+}
+
+.fa-chain:before,
+.fa-link:before {
+  height: 10px !important;
+}
+
+.links {
+  text-decoration: none;
+  color: #222831;
+}
+.links:hover {
+  color: #222831;
+  border-bottom: 1px solid #222831;
+  transition: 300ms ease-in-out;
+}
+
+@media screen and (max-width: 475px) {
+  main .display {
+    max-width: 100%;
+    height: auto;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+nav .navbar-nav > a {
+  margin-right: 60px;
+  font-size: large;
+}
+nav .navbar-nav > a:hover {
+  color: #eeeeee;
+  border-bottom: 2px solid #ff7573;
+  transition: 50ms ease-in-out;
+}
+nav .active {
+  color: #eeeeee;
+  border-bottom: 2px solid #ff7573;
+}
+
+.surname {
+  color: #ff7573;
+}
+
+.fa {
+  padding: 20px;
+  padding-right: 45px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
