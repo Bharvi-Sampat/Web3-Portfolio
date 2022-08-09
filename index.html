@@ -20,6 +20,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -53,8 +54,29 @@
             <a href="#main" class="nav-item nav-link active">Home</a>
             <a href="#about-me" class="nav-item nav-link">About Me</a>
             <a href="#my-works" class="nav-item nav-link">My Works</a>
+            <!-- <div class="nav-item nav-link dropdown show">
+              <a
+                class="nav-item nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                My Works
+              </a>
 
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#my-works">Portfolio</a>
+                <a class="dropdown-item" href="#">Web3</a>
+                <a class="dropdown-item" href="#web3">Web3</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div> -->
             <a href="contact.html" class="nav-item nav-link">Get in Touch</a>
+
             <!-- <div class=" socials">
               <a href="#" class=" text-center fa fa-twitter "></a>
               <a href="#" class="fa fa-linkedin "></a>
@@ -89,58 +111,16 @@
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <h1 class="text-center my-4">Need Content That Converts?</h1>
+            <h1 class="text-center my-4">About Me</h1>
             <p class="col-10 text-left description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Aspernatur asperiores magnam eum ea odio laborum enim. Alias,
-              impedit. Iure quod distinctio iste, deleniti ad impedit earum
-              numquam, nulla nihil accusamus autem suscipit voluptates culpa
-              eos! Dolor fugiat, a corrupti velit nesciunt praesentium, cum
-              tempora eveniet quidem temporibus ipsum odio culpa. Lorem ipsum
-              dolor, sit amet consectetur adipisicing elit. Aspernatur
-              asperiores magnam eum ea odio laborum enim. Alias, impedit. Iure
-              quod distinctio iste, deleniti ad impedit earum numquam, nulla
-              nihil accusamus autem suscipit voluptates culpa eos! Dolor fugiat,
-              a corrupti velit nesciunt praesentium, cum tempora eveniet quidem
-              temporibus ipsum odio culpa.
+              A creative and resourceful marketing profesional with core
+              expertise in Blockchain & Web3, Community Management and Technical
+              Content Writing.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h1 class="text-center my-4">How Can I Help You?</h1>
-            <h3 class="text-center my-4">1. Who I am</h3>
-            <p class="col-10 text-left description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-              saepe cumque repellendus quae doloremque, laudantium id animi
-              accusantium commodi. Explicabo, sequi saepe! <br /><br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-              saepe cumque repellendus quae doloremque, laudantium id animi
-              accusantium commodi. Explicabo, sequi saepe!
-            </p>
-
-            <h3 class="text-center my-4">2. What I do</h3>
-            <p class="col-10 text-left description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-              <br /><br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-              <br /><br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-              accusantium possimus molestias, tenetur quaerat pariatur! Hic
-            </p>
-          </div>
-        </div>
-      </div>
       <hr id="my-works" class="hr" />
 
       <div class="container">
@@ -153,31 +133,37 @@
               saepe cumque repellendus quae doloremque, laudantium id animi
               accusantium commodi. Explicabo, sequi saepe!
             </p>
-            <div class="navbar sticky-top navbar-expand-lg">
-              <div class="navbar-nav text-center mx-auto portfolio-links">
-                <a href="#article" class="nav-item nav-link">Articles</a>
-                <a href="#" class="nav-item nav-link">News Letter</a>
-                <a href="#" class="nav-item nav-link">Twitter Threads</a>
-                <a id="article" href="#" class="nav-item nav-link"
-                  >Marketing Seminar</a
-                >
-              </div>
-            </div>
           </div>
+        </div>
+      </div>
+      <div class="navbar navbar-expand-lg">
+        <div class="navbar-nav text-center mx-auto portfolio-links">
+          <a href="#blockchain" class="nav-item nav-link">Blockchain</a>
+          <a href="#web3" class="nav-item nav-link">Web3</a>
+          <a href="#twitter" class="nav-item nav-link">Twitter Threads</a>
+          <a href="#newsletter" class="nav-item nav-link">Newsletter</a>
+          <a href="#youtube" id="blockchain" class="nav-item nav-link"
+            >Marketing Seminar</a
+          >
         </div>
       </div>
 
       <!-- Portfolio -->
 
-      <div class="container">
-        <div class="row justify-content-md-center align-items-center my-5 mx-1">
-          <div class="col-sm col-md-auto">
-            <!-- ARTICLES -->
+      <!-- BLOCKCHAIN BASED -->
+      <h1 class="title mt-5 mb-5">Blockchain</h1>
 
-            <h1 id="article" class="col-md-auto title">Articles</h1>
+      <div class="container">
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
+            <!-- MoonBeam and Seedless Wallets-->
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://medium.com/@pankajdalmia.2000/cross-
-            chain-contracts-on-moonbeam-ecosystem-6d667e633e18"
+          chain-contracts-on-moonbeam-ecosystem-6d667e633e18"
               ><img
                 src="img/moonbeam.JPG"
                 class="img-fluid rounded float-left image"
@@ -185,19 +171,10 @@
               />
             </a>
           </div>
-          <div class="col col-lg-4 pt-5">
-            <h4>Medium</h4>
+          <div class="col">
             <a
-              class="links"
-              href="https://medium.com/@pankajdalmia.2000/cross-
-            chain-contracts-on-moonbeam-ecosystem-6d667e633e18"
-              ><i class="fa fa-link p-0"></i>Cross Chain Smart Contracts on
-              Moonbeam</a
-            >
-          </div>
-          <div class="w-100 my-3"></div>
-          <div class="col-sm col-md-auto">
-            <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://pankajdalmia.substack.com/p/65aeacdd-5df7-4d6c-8f00-3c27659304f4"
               ><img
                 src="img/seedless-wallets.JPG"
@@ -206,18 +183,40 @@
               />
             </a>
           </div>
-          <div class="col col-lg-4">
+          <div class="w-100"></div>
+          <div class="col">
+            <h4>Medium</h4>
+            <a
+              class="links"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/cross-
+            chain-contracts-on-moonbeam-ecosystem-6d667e633e18"
+              ><i class="fa fa-link p-0"></i>Cross Chain Smart Contracts on
+              Moonbeam</a
+            >
+          </div>
+          <div class="col">
             <h4>Substack</h4>
             <a
               class="links"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://pankajdalmia.substack.com/p/65aeacdd-5df7-4d6c-8f00-3c27659304f4"
               ><i class="fa fa-link p-0"></i>Why seedless wallets are the
               future</a
             >
           </div>
-          <div class="w-100 my-3"></div>
-          <div class="col-sm col-md-auto">
+        </div>
+
+        <!-- Polygon and Blockchain Partnership -->
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://medium.com/@pankajdalmia.2000/polygon-ethereums-knight-in-shining-armour-e67fb7f53ae3"
               ><img
                 src="img/polygon.JPG"
@@ -226,13 +225,363 @@
               />
             </a>
           </div>
-          <div class="col col-lg-4">
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/ba5eb903d8a2"
+              ><img
+                src="img/dapplooker.JPG"
+                class="img-fluid rounded float-left image"
+                alt="Polygon & Ethereum"
+              />
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
             <h4>Medium</h4>
             <a
               class="links"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://medium.com/@pankajdalmia.2000/polygon-ethereums-knight-in-shining-armour-e67fb7f53ae3"
               ><i class="fa fa-link p-0"></i>Polygon: Ethereum’s knight in
               shining armour</a
+            >
+          </div>
+          <div class="col">
+            <h4>Medium</h4>
+            <a
+              class="links"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/ba5eb903d8a2"
+              ><i class="fa fa-link p-0"></i>Blockchain Partnership
+              announcement</a
+            >
+          </div>
+        </div>
+
+        <!-- Federal Reserve -->
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/federal-reserve-hikes-cryptocurrency-investing-12e5e073cc86"
+              ><img
+                src="img/federal-reserve.JPG"
+                class="img-fluid rounded float-left image"
+                alt="Federal Reserve hikes & Cryptocurrency investing"
+              />
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <h4 id="web3">Medium</h4>
+            <a
+              class="links"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/federal-reserve-hikes-cryptocurrency-investing-12e5e073cc86"
+              ><i class="fa fa-link p-0"></i>Federal Reserve hikes &
+              Cryptocurrency investing</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- WEB3 BASED -->
+
+      <h1 class="title mt-5 mb-5">Web3</h1>
+
+      <div class="container">
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
+            <!-- Introduction to WEB 3.0 and A new asset class-->
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/353d4e8fdc39"
+              ><img
+                src="img/intro-web3.JPG"
+                class="img-fluid rounded float-left image"
+                alt="Introduction to Web3.0"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/9e3e245d66a5"
+              ><img
+                src="img/nft-new-asset.JPG"
+                class="img-fluid rounded float-left image"
+                alt="NFT - New asset classes"
+              />
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <h4>Medium</h4>
+            <a
+              class="links"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/353d4e8fdc39"
+              ><i class="fa fa-link p-0"></i>Introduction to Web3.0</a
+            >
+          </div>
+          <div class="col">
+            <h4>Medium</h4>
+            <a
+              class="links"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/9e3e245d66a5"
+              ><i class="fa fa-link p-0"></i>NFTs: A new asset class</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
+            <!-- Introduction to DeFi protocols and DeFi : Defying traditional finance -->
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/introduction-to-defi-protocols-f17716a161d7"
+              ><img
+                src="img/intro-defi-protocols.JPG"
+                class="img-fluid rounded float-left image"
+                alt="Introduction to DeFi protocols"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/defi-defying-traditional-finance-91fdfed6fb9f"
+              ><img
+                src="img/defi-tradition-finance.JPG"
+                class="img-fluid rounded float-left image"
+                alt="NFT - New asset classes"
+              />
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <h4>Medium</h4>
+            <a
+              class="links"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/introduction-to-defi-protocols-f17716a161d7"
+              ><i class="fa fa-link p-0"></i>Introduction to DeFi protocols</a
+            >
+          </div>
+          <div class="col">
+            <h4>Medium</h4>
+            <a
+              class="links"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@pankajdalmia.2000/defi-defying-traditional-finance-91fdfed6fb9f"
+              ><i class="fa fa-link p-0"></i>DeFi : Defying traditional
+              finance</a
+            >
+          </div>
+
+          <!-- Genie in a bottle -->
+          <div
+            class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+          >
+            <div class="col">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://medium.com/@pankajdalmia.2000/genie-in-a-bottle-non-fungible-tokens-nfts-and-copyright-law-800861d35e83"
+                ><img
+                  src="img/genie-in-a-bottle.JPG"
+                  class="img-fluid rounded float-left image"
+                  alt="Genie in a bottle : Non Fungible Tokens (NFTs) and Copyright Law"
+                />
+              </a>
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+              <h4>Medium</h4>
+              <a
+                id="twitter"
+                class="links"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://medium.com/@pankajdalmia.2000/genie-in-a-bottle-non-fungible-tokens-nfts-and-copyright-law-800861d35e83"
+                ><i class="fa fa-link p-0"></i>Genie in a bottle : Non Fungible
+                Tokens (NFTs) and Copyright Law</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TWITTER THREADS -->
+
+      <h1 class="title mt-5 mb-5">Twitter Threads</h1>
+
+      <div class="container">
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
+            <!-- ZkSync and problems with lending eco system -->
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://typefully.com/t/83f5Qgw"
+              ><img
+                src="img/twitter/zksync.JPG"
+                class="img-fluid rounded float-left twitter-image"
+                alt="Why Developers should build on ZKsync"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://typefully.com/t/prDQa0C"
+              ><img
+                src="img/twitter/lending-ecosystem.JPG"
+                class="img-fluid rounded float-left twitter-image"
+                alt="Problems with the lending ecosystem"
+              />
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links"
+              href="https://typefully.com/t/83f5Qgw"
+              ><i class="fa fa-link p-0"></i>Why Developers should build on
+              ZKsync</a
+            >
+          </div>
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links"
+              href="https://typefully.com/t/prDQa0C"
+              ><i class="fa fa-link p-0"></i>Problems with the lending
+              ecosystem</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
+            <!-- Stable coin yield farming -->
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://typefully.com/t/drvzyYH"
+              ><img
+                src="img/twitter/yield-farming.JPG"
+                class="img-fluid rounded float-left twitter-image"
+                alt="Stable coin yield farming"
+              />
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <a
+              id="newsletter"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links"
+              href="https://typefully.com/t/drvzyYH"
+              ><i class="fa fa-link p-0"></i>Stable coin yield farming</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+
+      <h1 class="title mt-5 mb-5">Newsletter</h1>
+
+      <div class="container">
+        <div
+          class="row justify-content-md-center align-items-center text-center my-5 mx-1"
+        >
+          <div class="col">
+            <!-- Cypherrock newsletter -->
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://pankajdalmia.substack.com/p/29b66a6e-8067-4b95-a040-0e644a607755"
+              ><img
+                src="img/newsletter/cypherrock.JPG"
+                class="img-fluid rounded float-left newsletter"
+                alt="Blockchain based Newsletter"
+              />
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <a
+              id="youtube"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links"
+              href="https://pankajdalmia.substack.com/p/29b66a6e-8067-4b95-a040-0e644a607755"
+              ><i class="fa fa-link p-0"></i>Blockchain based Newsletter</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Youtube Video -->
+      <h1 class="title mt-5 mb-5">Marketing Seminar</h1>
+
+      <div class="container">
+        <div class="row justify-content-md-center align-items-center my-5 mx-1">
+          <div class="col">
+            <iframe
+              width="600"
+              height="315"
+              src="https://www.youtube.com/embed/5M7fmGiZmQk"
+              frameborder="0"
+              allowfullscreen
+              class="yt-video"
+            ></iframe>
+          </div>
+          <div class="col align-self-center">
+            <h4>Youtube</h4>
+
+            Conducted an hour-long AMA (seminar) on effective content creation
+            and marketing strategies in the cryptocurrency space in the WagMedia
+            server, Polkadot ecosystem’s inhouse content creation space.
+            Polkadot is among the top 10 blockchains in the world. <br /><br />
+            Check out the recording
+            <a href="https://www.youtube.com/embed/5M7fmGiZmQk" class="yt-link"
+              >here</a
             >
           </div>
         </div>
@@ -249,7 +598,11 @@
 
     <script>
       let typed = new Typed(".auto-input", {
-        strings: ["Web3 Marketing Professional.", "Technical Content Writer."],
+        strings: [
+          "Web3 Marketing Professional.",
+          "Technical Content Writer.",
+          "Community Manager",
+        ],
         typeSpeed: 20,
         backSpeed: 50,
         loop: true,

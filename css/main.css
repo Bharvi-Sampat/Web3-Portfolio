@@ -22,17 +22,22 @@
   margin-right: 15%;
 }
 
-.portfolio-links > a {
+.title {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.portfolio-links a {
   margin-left: 30px;
   margin-right: 30px;
   font-size: large;
 }
-.portfolio-links > a:hover {
+.portfolio-links a:hover {
   color: #ff7573 !important;
   border: 2px solid #ff7573;
   border-radius: 10px;
 }
-.portfolio-links > a .active {
+.portfolio-links .active {
   color: #ff7573 !important;
   border: 2px solid #ff7573;
   border-radius: 10px;
@@ -45,6 +50,7 @@
   padding: 5px 0 5px 0;
   border-radius: 10px;
   margin-bottom: 20px;
+  margin: 5vw;
 }
 
 .image {
@@ -70,12 +76,51 @@
   transition: 300ms ease-in-out;
 }
 
+.twitter-image {
+  height: 11rem;
+  width: auto;
+  border-radius: 25px;
+  border: 2px solid #222831;
+  margin-bottom: 15px;
+}
+
+.newsletter {
+  border-radius: 25px;
+  border: 2px solid #222831;
+  margin-bottom: 15px;
+}
+
+.yt-video {
+  border-radius: 5px;
+  border: 2px solid #222831;
+}
+
+.yt-link {
+  color: #ff7573;
+}
+.yt-link:hover {
+  color: #da7a79;
+}
+
 @media screen and (max-width: 475px) {
   main .display {
     max-width: 100%;
     height: auto;
   }
+  main .title {
+    margin: clamp(5rem, 10vw, 5rem);
+  }
 }
+@media screen and (max-width: 995px) {
+  main .twitter-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
