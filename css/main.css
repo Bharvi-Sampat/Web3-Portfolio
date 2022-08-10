@@ -126,7 +126,7 @@
     margin-right: 5vw;
   }
   main input,
-  main textarea {
+main textarea {
     padding: 10px;
     border-radius: 5px;
     margin-left: 1vw;
@@ -155,6 +155,11 @@ textarea {
 
 .message {
   padding-bottom: 100px;
+}
+
+.submit {
+  padding: 10px 75px;
+  margin-bottom: 80px;
 }
 
 html {
@@ -215,4 +220,4 @@ nav .active {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
