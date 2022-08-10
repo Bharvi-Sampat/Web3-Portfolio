@@ -116,7 +116,47 @@
     max-width: 100%;
     height: auto;
   }
+  main .yt-video {
+    width: 85vw;
+    align-items: center;
+  }
+  main label {
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 5vw;
+  }
+  main input,
+  main textarea {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 1vw;
+  }
 }
+@media screen and (max-width: 770px) {
+  main .text-box {
+    margin-top: 50px;
+  }
+  main #main {
+    margin-left: 40px;
+  }
+}
+label {
+  font-size: 20px;
+  padding: 20px;
+  margin-right: -20vw;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: -20vw;
+}
+
+.message {
+  padding-bottom: 100px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -175,4 +215,4 @@ nav .active {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

@@ -10,8 +10,8 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="css/main.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -75,7 +75,7 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </div> -->
-            <a href="contact.html" class="nav-item nav-link">Get in Touch</a>
+            <a href="#get-in-touch" class="nav-item nav-link">Get in Touch</a>
 
             <!-- <div class=" socials">
               <a href="#" class=" text-center fa fa-twitter "></a>
@@ -586,6 +586,84 @@
           </div>
         </div>
       </div>
+
+      <hr id="get-in-touch" class="hr" />
+
+      <h1 class="text-center my-4">Get In Touch</h1>
+
+      <div class="container">
+        <form action="form.php" method="post">
+          <div
+            class="row justify-content-md-center align-items-center text-center mx-1"
+          >
+            <div class="col"><label for="name">Your Name</label></div>
+            <div class="col">
+              <input type="text" name="name" placeholder="John Doe" />
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+              <label for="lname">Email</label>
+            </div>
+            <div class="col">
+              <input
+                type="email"
+                name="email"
+                placeholder="johndoe@gmail.com"
+              />
+            </div>
+          </div>
+          <div
+            class="row justify-content-md-center align-items-center text-center mx-1"
+          >
+            <div class="col"><label for="subject">Subject</label></div>
+            <div class="col">
+              <textarea name="subject" placeholder="Subject"></textarea>
+            </div>
+            <div class="w-100"></div>
+            <div class="col"><label for="message">Message</label></div>
+            <div class="col">
+              <textarea
+                name="message"
+                placeholder="What can I do for you?"
+                class="align-items-top message g-0s"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- <div class="container">
+        <div class="row justify-content-md-center align-items-center my-5 mx-1">
+          <div class="col">
+            <form action="form.php" method="post">
+              <label for="name">Your Name</label>
+              <input type="text" name="name" placeholder="John Doe" /><br />
+              <label for="lname">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="johndoe@gmail.com"
+              /><br />
+
+              <label for="subject">Subject</label>
+              <textarea
+                name="subject"
+                placeholder="Subject"
+                class="align-items-center"
+              ></textarea>
+              <br />
+
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                placeholder="What can I do for you?"
+                class="align-items-center"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div> -->
     </main>
 
     <script src="script.js"></script>
