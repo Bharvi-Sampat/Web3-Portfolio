@@ -10,8 +10,8 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/main.css" />
 
+    <link rel="stylesheet" href="css/main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -24,7 +24,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Technical Content Writer</title>
+    <title>Pankaj Dalmia - Technical Content Writer</title>
   </head>
   <body>
     <!-- Nav Bar -->
@@ -589,13 +589,13 @@
 
       <hr id="get-in-touch" class="hr" />
 
-      <h1 class="text-center my-4">Get In Touch</h1>
-
       <div class="container">
         <form action="form.php" method="post">
           <div
             class="row justify-content-md-center align-items-center text-center mx-1"
           >
+            <h1 class="text-center my-5">Get In Touch</h1>
+
             <div class="col"><label for="name">Your Name</label></div>
             <div class="col">
               <input type="text" name="name" placeholder="John Doe" />
@@ -635,40 +635,159 @@
           </div>
         </form>
       </div>
-
-      <!-- <div class="container">
-        <div class="row justify-content-md-center align-items-center my-5 mx-1">
-          <div class="col">
-            <form action="form.php" method="post">
-              <label for="name">Your Name</label>
-              <input type="text" name="name" placeholder="John Doe" /><br />
-              <label for="lname">Email</label>
-              <input
-                type="email"
-                name="email"
-                placeholder="johndoe@gmail.com"
-              /><br />
-
-              <label for="subject">Subject</label>
-              <textarea
-                name="subject"
-                placeholder="Subject"
-                class="align-items-center"
-              ></textarea>
-              <br />
-
-              <label for="message">Message</label>
-              <textarea
-                name="message"
-                placeholder="What can I do for you?"
-                class="align-items-center"
-              ></textarea>
-              <input type="submit" value="Submit" />
-            </form>
-          </div>
-        </div>
-      </div> -->
     </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <!-- <section class="mt-5">
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#main" class="nav-item nav-link active">Home</a>
+              </h6>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#about-me" class="nav-item nav-link">About Me</a>
+              </h6>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#my-works" class="nav-item nav-link">My Works</a>
+              </h6>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#get-in-touch" class="nav-item nav-link"
+                  >Get in Touch</a
+                >
+              </h6>
+            </div>
+          </div>
+        </section> -->
+        <!-- Section: Links -->
+
+        <hr class="my-3" />
+
+        <!-- Section: Text -->
+        <section class="mb-3">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <div id="sample" class="pb-2">
+                <i class="fa fa-envelope"></i> pankajdalmia.2000@gmail.com
+                <button onclick="copyEmail()">Copy</button>
+              </div>
+              <div id="sample" class="pb-2">
+                <i class="fa fa-phone"></i> +91 85918 73424
+                <button onclick="copyNum()">Copy</button>
+              </div>
+              <div id="sample" class="">
+                <i class="fa fa-map-marker"></i> Mumbai, India.
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+
+        <hr class="mb-3" />
+
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://twitter.com/Pkjdalmia"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/pankaj-dalmia-a30846190/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Telegram -->
+
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-light btn-floating m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            <i class="fab fa-telegram"></i>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-start" id="staticBackdropLabel">
+                    Telegram QR
+                    <p>Scan QR code to connect with me on Telegram</p>
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    class="telegram-img"
+                    src="img/telegram/telegram-qr.jpg"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a
+          class="text-white"
+          style="text-decoration: none"
+          href="https://pankajdalmia.000webhostapp.com/index.html"
+          >Pankaj <span class="surname">Dalmia</span></a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

@@ -7,7 +7,8 @@ $message= $_POST['message'];
 $subject = $_POST['subject'];
 $to = "bharvi.sampat@gmail.com";
 $txt ="Name: ". $name . "\r\nEmail: " . $email . "\r\nMessage: " . $message;
-$headers = "From: PankajDalmiaWebsite";
+$headers = "From: PankajDalmiaWebsite" . "\r\n" .
+"CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
